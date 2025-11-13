@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-popins: "Poppins", sans-serif;
+    --color-main-black: #1D2130;
+    --color-dark-bg: #1B2431;
+    --color-priamry: #0C96E2;
+    --color-hover: #0078b9;
+}
+
+a.activeLink {
+    color: #0C96E2;
+}
+
+@keyframes htmlMove {
+
+    0%,
+    100% {
+        bottom: 155px;
+        left: 375px;
+    }
+
+    33% {
+        bottom: 130px;
+        left: 110px;
+    }
+
+    66% {
+        bottom: 375px;
+        left: 130px;
+    }
+}
+
+@keyframes cssMove {
+
+    0%,
+    100% {
+        bottom: 375px;
+        left: 130px;
+    }
+
+    33% {
+        bottom: 155px;
+        left: 375px;
+    }
+
+    66% {
+        bottom: 130px;
+        left: 110px;
+    }
+}
+
+@keyframes gitMove {
+
+    0%,
+    100% {
+        bottom: 130px;
+        left: 110px;
+    }
+
+    33% {
+        bottom: 375px;
+        left: 130px;
+    }
+
+    66% {
+        bottom: 155px;
+        left: 375px;
+    }
+}
+
+@keyframes jsMove {
+
+    0%,
+    100% {
+        bottom: 320px;
+        left: 285px;
+    }
+
+    33% {
+        bottom: 70px;
+        left: 220px;
+    }
+
+    66% {
+        bottom: 255px;
+        left: 35px;
+    }
+}
+
+@keyframes tailMove {
+
+    0%,
+    100% {
+        bottom: 70px;
+        left: 220px;
+    }
+
+    33% {
+        bottom: 255px;
+        left: 35px;
+    }
+
+    66% {
+        bottom: 320px;
+        left: 285px;
+    }
+}
+
+@keyframes bootMove {
+
+    0%,
+    100% {
+        bottom: 255px;
+        left: 35px;
+    }
+
+    33% {
+        bottom: 320px;
+        left: 285px;
+    }
+
+    66% {
+        bottom: 70px;
+        left: 220px;
+    }
+}
+
+.html-move {
+    animation: htmlMove 9s ease-in-out infinite;
+}
+
+.css-move {
+    animation: cssMove 9s ease-in-out infinite;
+
+}
+
+.git-move {
+    animation: gitMove 9s ease-in-out infinite;
+
+}
+
+.js-move {
+    animation: jsMove 9s ease-in-out infinite;
+
+}
+
+.tail-move {
+    animation: tailMove 9s ease-in-out infinite;
+
+}
+
+.boot-move {
+    animation: bootMove 9s ease-in-out infinite;
+
+}
+
+@keyframes spinSelf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spin-self {
+    animation: spinSelf 3s ease-in-out infinite;
+}
+
+@keyframes starts {
+    0% {
+        transform: rotate(0deg) scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(360deg) scale(0.7);
+        opacity: 0.4;
+    }
+}
+
+.starts-1 {
+    animation: starts 3s ease-in-out infinite alternate;
+}
+
+.starts-2 {
+    animation: starts 3s 2s ease-in-out infinite alternate;
+}
+
+.starts-3 {
+    animation: starts 3s 4s ease-in-out infinite alternate;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1B2431;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0C96E2;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #056ea6;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.90);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
