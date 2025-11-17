@@ -5,7 +5,7 @@ const MyDash = () => {
     const projectDet = {
         name: "MyDash Dashboard",
         date: "18-3-2025",
-        image: "/assets/images/Fingo.png",
+        image: "/assets/images/MyDash.png",
         desc: "A fully responsive dashboard design for an educational platform featuring user accounts, payment plans, course organization, teachers, and study schedules. Styled using a custom-built UI library, the project focuses on clean design, structured layout, and flexibility across all screen sizes.",
         det: [
             {
