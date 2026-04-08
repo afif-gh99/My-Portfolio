@@ -144,7 +144,7 @@ const MainPage = () => {
                     title="I'm Afif, Frontend Developer"
                     subTilte="I'm Afif, a Frontend Developer specializing in building fast, responsive, and professional web interfaces using modern technologies like Bootstrap, React, and Tailwind. I focus on turning ideas into smooth and effective digital experiences"
                     URLcv="/assets/Afif Ghaziri CV.pdf"
-                    profileImg="/assets/images/profile.png"
+                    profileImg="/assets/images/profile.webp"
                     socialLinks={socialLinks}
                 />
                 <AboutMe
