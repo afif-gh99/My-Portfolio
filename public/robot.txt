@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://afif-ghaziri.vercel.app/sitemap.xml
